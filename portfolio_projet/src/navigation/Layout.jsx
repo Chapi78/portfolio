@@ -17,20 +17,20 @@ export default function App() {
       <Header />
         <div id='body'>
           <section id='about'>
-          <About />
+            <About />
           </section>
           <section id='skills'>
-          <Skills />
+            <Skills />
           </section>
           <section id='portfolio'>
-          <Portfolio />
+            <Portfolio />
           </section>
           <section id='formation'>
-          <Formation />
-          <CV />
+            <Formation />
+            <CV />
           </section>
           <section id='contact'>
-          <Contact />
+            <Contact />
           </section>
         </div>
       <Footer />
@@ -45,33 +45,33 @@ function Header() {
         <ul className='flex flex-row navbar-nav'>
           <li className='nav-item mx-1'>
             <Link style={{ textDecoration: 'none'}} activeClass='active' smooth spy to=''>
-              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-house top-50 start-50" viewBox="0 0 16 16">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="grey" className="bi bi-house top-50 start-50" viewBox="0 0 16 16">
                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
               </svg>
             </Link>
           </li>
           <li className='nav-item mx-1'>
-            <Link style={{ textDecoration: 'none', color: 'inherit'}} activeClass='active' smooth spy to='about'>
+            <Link style={{ textDecoration: 'none', color: 'grey'}} activeClass='active' smooth spy to='about'>
               <h4>About</h4>
             </Link>
           </li>
           <li className='nav-item mx-1'>
-            <Link style={{ textDecoration: 'none', color: 'inherit' }} activeClass='active' smooth spy to='skills'>
+            <Link style={{ textDecoration: 'none', color: 'grey' }} activeClass='active' smooth spy to='skills'>
               <h4>Competence</h4>
             </Link>
           </li>
           <li className='nav-item mx-1'>
-            <Link style={{ textDecoration: 'none', color: 'inherit' }} activeClass='active' smooth spy to='portfolio'>
+            <Link style={{ textDecoration: 'none', color: 'grey' }} activeClass='active' smooth spy to='portfolio'>
               <h4>Portfolio</h4>
             </Link>
           </li>
           <li className='nav-item mx-1'>
-            <Link style={{ textDecoration: 'none', color: 'inherit' }} activeClass='active' smooth spy to='formation'>
+            <Link style={{ textDecoration: 'none', color: 'grey' }} activeClass='active' smooth spy to='formation'>
               <h4>Formation</h4>
             </Link>
           </li>
           <li className='nav-item mx-1'>
-            <Link style={{ textDecoration: 'none', color: 'inherit' }} activeClass='active' smooth spy to='contact'>
+            <Link style={{ textDecoration: 'none', color: 'grey' }} activeClass='active' smooth spy to='contact'>
               <h4>Contact</h4>
             </Link>
           </li>

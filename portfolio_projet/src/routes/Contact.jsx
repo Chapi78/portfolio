@@ -27,32 +27,33 @@ export default function Contact() {
 
   return (
     <>
-      <div className='row'></div>
-      <form id='contact-form' ref={form} onSubmit={sendEmail}>
-        <div className='col-md-12 d-inline-flex'>
-          <div className='col-md-6'>
-            <label htmlFor="user_name">
-              Nom
-            </label>
-            <input className='col-md-6' type="text" name='user_name' id='user_name' required />
+      <div className='article'>
+        <form id='contact-form' ref={form} onSubmit={sendEmail}>
+          <div className='col-md-10 d-inline-flex justify-content-center'>
+            <div className='input-form text-center d-inline'>
+              <label htmlFor="user_name">
+                sujet :
+              </label>
+              <input className='col-md-8' type="text" name='user_name' id='user_name' required />
+            </div>
+            <div className='input-form text-center d-inline'>
+              <label htmlFor="user_email">
+                Email :
+              </label>
+              <input className='col-md-8' type="email" name='user_email' id='user_email' required />
+            </div>
+          </div>        
+          <div className='col-md-12'>
+            <div className=''>
+              <label className='' htmlFor="message">
+                Message :
+              </label>
+              <textarea className='md-textarea form-control' name='message' required />
+            </div>
           </div>
-          <div className='col-md-6'>
-            <label htmlFor="user_email">
-              Email
-            </label>
-            <input className='col-md-6' type="email" name='user_email' id='user_email' required />
-          </div>
-        </div>        
-        <div className='col-md-12'>
-          <div className=''>
-            <label className='' htmlFor="message">
-              Message
-            </label>
-            <textarea className='md-textarea form-control' name='message' required />
-          </div>
-        </div>
-        <button type="submit">Envoyer</button>
-      </form>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
     </>
   )
 }

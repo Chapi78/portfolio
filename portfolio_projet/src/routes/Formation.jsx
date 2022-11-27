@@ -3,7 +3,9 @@ import '../App.css'
 export default function Formation() {
   return (
     <>
-      <h1>Formation</h1>
+      <div className='article'>
+        <h1>Formation</h1>
+      </div>
     </>
   );
 }
