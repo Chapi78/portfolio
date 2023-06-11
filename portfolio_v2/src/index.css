@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --color-neutral-50: theme('colors.gray.50');
+    --color-neutral-100: theme('colors.gray.100');
+    --color-neutral-200: theme('colors.gray.200');
+    --color-neutral-300: theme('colors.gray.300');
+    --color-neutral-400: theme('colors.gray.400');
+    --color-neutral-500: theme('colors.gray.500');
+    --color-neutral-600: theme('colors.gray.600');
+    --color-neutral-700: theme('colors.gray.700');
+    --color-neutral-800: theme('colors.gray.800');
+    --color-neutral-900: theme('colors.gray.900');
+  }
+}
+
+.theme-ete {
+  --color-primary-50: theme('colors.yellow.50');
+  --color-primary-100: theme('colors.yellow.100');
+  --color-primary-200: theme('colors.yellow.200');
+  --color-primary-300: theme('colors.yellow.300');
+  --color-primary-400: theme('colors.yellow.400');
+  --color-primary-500: theme('colors.yellow.500');
+  --color-primary-600: theme('colors.yellow.600');
+  --color-primary-700: theme('colors.yellow.700');
+  --color-primary-800: theme('colors.yellow.800');
+  --color-primary-900: theme('colors.yellow.900');
+}
+
+.theme-hiver {
+  --color-primary-50: theme('colors.blue.50');
+  --color-primary-100: theme('colors.blue.100');
+  --color-primary-200: theme('colors.blue.200');
+  --color-primary-300: theme('colors.blue.300');
+  --color-primary-400: theme('colors.blue.400');
+  --color-primary-500: theme('colors.blue.500');
+  --color-primary-600: theme('colors.blue.600');
+  --color-primary-700: theme('colors.blue.700');
+  --color-primary-800: theme('colors.blue.800');
+  --color-primary-900: theme('colors.blue.900');
+}
+
+.theme-automne {
+  --color-primary-50: theme('colors.orange.50');
+  --color-primary-100: theme('colors.orange.100');
+  --color-primary-200: theme('colors.orange.200');
+  --color-primary-300: theme('colors.orange.300');
+  --color-primary-400: theme('colors.orange.400');
+  --color-primary-500: theme('colors.orange.500');
+  --color-primary-600: theme('colors.orange.600');
+  --color-primary-700: theme('colors.orange.700');
+  --color-primary-800: theme('colors.orange.800');
+  --color-primary-900: theme('colors.orange.900');
+}
+
+.theme-printemps {
+  --color-primary-50: theme('colors.green.50');
+  --color-primary-100: theme('colors.green.100');
+  --color-primary-200: theme('colors.green.200');
+  --color-primary-300: theme('colors.green.300');
+  --color-primary-400: theme('colors.green.400');
+  --color-primary-500: theme('colors.green.500');
+  --color-primary-600: theme('colors.green.600');
+  --color-primary-700: theme('colors.green.700');
+  --color-primary-800: theme('colors.green.800');
+  --color-primary-900: theme('colors.green.900');
+}
+
+.theme-light {
+  --neutralBg: theme('colors.white');
+  --onNeutralBg: var(--color-neutral-900);
+  --primaryBg: var(--color-primary-100);
+  --onPrimaryBg: var(--color-primary-900);
+  --primary: var(--color-primary-500);
+}
+
+.theme-dark {
+  --neutralBg: var(--color-neutral-900);
+  --onNeutralBg: theme('colors.white');
+  --primaryBg: var(--color-primary-900);
+  --onPrimaryBg: var(--color-primary-50);
+  --primary: var(--color-primary-400);
+}
+
+/* * { 
+  outline: 1px solid red;
+} */
+/*debug css */
+
+.fade-enter {
+  opacity: 0;
+  /* z-index: 1; */
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 2500ms;
+}
+
+#image_container {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#actualBg {
+  z-index: 2;
+}
+
+#lastBg {
+  z-index: 1;
+}
+
+section{
+  margin-bottom: 3rem;
+}

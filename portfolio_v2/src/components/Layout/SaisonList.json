@@ -1,0 +1,37 @@
+[
+    {
+        "saison": "ete",
+        "photoJour" : "imgEteJ",
+        "photoNuit" : "imgEteN",
+        "urlPhotoJour" : "./image/montagne_ete_jour.jpg",
+        "urlPhotoNuit" : "./image/montagne_ete_nuit.jpg",
+        "color" : "yellow",
+        "icon" : "FaUmbrellaBeach"
+    },
+    {
+        "saison": "automne",
+        "photoJour" : "imgAutomneJ",
+        "photoNuit" : "imgAutomneN",
+        "urlPhotoJour" : "./image/montagne_automne_jour.jpg",
+        "urlPhotoNuit" : "./image/montagne_prinptemps_automne_nuit.jpg",        "color" : "orange",
+        "icon" : "FaLeaf"
+    },
+    {
+        "saison": "hiver",
+        "photoJour" : "imgHiverJ",
+        "photoNuit" : "imgHiverN",
+        "urlPhotoJour" : "./image/montagne_hiver_jour.jpg",
+        "urlPhotoNuit" : "./image/montagne_hiver_nuit.jpg",
+        "color" : "FaSnowflake",
+        "icon" : "FaSnowflake"
+    },
+    {
+        "saison": "printemps",
+        "photoJour" : "imgPrinptempsJ",
+        "photoNuit" : "imgPrinptempsN",
+        "urlPhotoJour" : "./image/montagne_prinptemps_jour.jpg",
+        "urlPhotoNuit" : "./image/montagne_prinptemps_automne_nuit.jpg",
+        "color" : "green",
+        "icon" : "GiTwirlyFlower"
+    }
+]
